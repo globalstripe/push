@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "219365098522",
+    "firebase_url": "https://livescores-c375c.firebaseio.com",
+    "project_id": "livescores-c375c",
+    "storage_bucket": "livescores-c375c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219365098522:android:9a5220f2f47fee63bbfda3",
+        "android_client_info": {
+          "package_name": "com.globalstripe.chatfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219365098522-di7antmauctlranfptivj8212hf7sqco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-dVm4qtNS845qnCHDN0dcVzubf6N3iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219365098522-di7antmauctlranfptivj8212hf7sqco.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "219365098522-5p6n0v7dmticoohamhrjum2qkifse92v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globalstripe.movieadmobapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219365098522:android:1ca7d602db847dbebbfda3",
+        "android_client_info": {
+          "package_name": "com.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219365098522-di7antmauctlranfptivj8212hf7sqco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-dVm4qtNS845qnCHDN0dcVzubf6N3iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219365098522-di7antmauctlranfptivj8212hf7sqco.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "219365098522-5p6n0v7dmticoohamhrjum2qkifse92v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.globalstripe.movieadmobapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
