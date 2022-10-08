@@ -11,6 +11,7 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 
 import {Node} from 'react';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -21,18 +22,11 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 
 import {
-  requestUserPermission,
+  RequestUserPermission,
   NotificationListener,
-  NewMessage,
 } from './src/util/pushnotification_helper';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
@@ -65,7 +59,7 @@ const Section = ({children, title}): Node => {
 
 const App: () => Node = () => {
   useEffect(() => {
-    requestUserPermission();
+    RequestUserPermission();
     NotificationListener();
   }, []);
 
@@ -89,15 +83,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Push Demo">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="Message">
-            <Text>
-              <NewMessage />
-            </Text>
-          </Section>
+          <Section title="Firebase FCM Demo" />
         </View>
       </ScrollView>
     </SafeAreaView>
